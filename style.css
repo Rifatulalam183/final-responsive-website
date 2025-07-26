@@ -132,3 +132,27 @@ footer .socials img {
   .banner, .deals-container { flex-direction: column; }
   .plant-grid { grid-template-columns: 1fr; }
 }
+/* Cart Container Styling */
+.cart-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Small circle badge for item count */
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
